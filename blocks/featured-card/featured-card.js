@@ -11,4 +11,5 @@ export default function decorate(block) {
     const categoryDiv = createElement('div', { class: 'featured-card-category' });
     p.parentNode.prepend(categoryDiv);
   }
+  picture.parentNode.parentNode.append(p.parentNode);
 }

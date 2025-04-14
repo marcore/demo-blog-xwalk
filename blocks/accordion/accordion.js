@@ -13,14 +13,12 @@ function createAccordionItem(title, content) {
 }
 
 function decorateAccordion(block) {
-  [...block.children].forEach((row) => {
-    const [label, body] = [...row.children];
-    const accordion = createAccordionItem(
-      label.textContent,
-      body,
-    );
-    row.replaceWith(accordion);
-  });
+  const [label, body] = [...block.children];
+  const accordion = createAccordionItem(
+    label.textContent,
+    body,
+  );
+  block.children[0].replaceWith(accordion);
 }
 
 export default async function decorate(block) {
