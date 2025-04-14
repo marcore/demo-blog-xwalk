@@ -33,6 +33,22 @@
             {
               "name": "Highlight",
               "value": "highlight"
+            },
+            {
+              "name": "Footer Links Wrapper",
+              "value": "footer-links-wrapper"
+            },
+            {
+              "name": "Footer Legal Wrapper",
+              "value": "footer-legal-wrapper"
+            },
+            {
+              "name": "legal",
+              "value": "legal"
+            },
+            {
+              "name": "narrow",
+              "value": "narrow"
             }
           ]
         }
@@ -50,7 +66,11 @@
         "hero",
         "cards",
         "columns",
-        "fragment"
+        "fragment",
+        "featured-card",
+        "blog-filter",
+        "recommended-articles",
+        "accordion"
       ]
     }
   ]

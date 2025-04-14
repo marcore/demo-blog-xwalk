@@ -136,6 +136,83 @@
           {
             "name": "Highlight",
             "value": "highlight"
+          },
+          {
+            "name": "Footer Links Wrapper",
+            "value": "footer-links-wrapper"
+          },
+          {
+            "name": "Footer Legal Wrapper",
+            "value": "footer-legal-wrapper"
+          },
+          {
+            "name": "legal",
+            "value": "legal"
+          },
+          {
+            "name": "narrow",
+            "value": "narrow"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "accordion",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "label",
+        "label": "label",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      },
+      {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Style",
+        "options": [
+          {
+            "name": "light",
+            "value": "light"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "blog-filter",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "heading",
+        "label": "Heading",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "description": "Use list item with links to define the filter options",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      },
+      {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Style",
+        "options": [
+          {
+            "name": "light",
+            "value": "light"
           }
         ]
       }
@@ -180,6 +257,40 @@
     ]
   },
   {
+    "id": "featured-card",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      },
+      {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Wide",
+            "value": "wide"
+          },
+          {
+            "name": "Teaser",
+            "value": "teaser"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "fragment",
     "fields": [
       {
@@ -206,6 +317,34 @@
         "label": "Alt",
         "value": ""
       },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "recommended-articles",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Style",
+        "options": [
+          {
+            "name": "title",
+            "value": "title"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "simple-card",
+    "fields": [
       {
         "component": "richtext",
         "name": "text",

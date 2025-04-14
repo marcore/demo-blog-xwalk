@@ -15,7 +15,11 @@
       "hero",
       "cards",
       "columns",
-      "fragment"
+      "fragment",
+      "featured-card",
+      "blog-filter",
+      "recommended-articles",
+      "accordion"
     ]
   },
   {
@@ -37,6 +41,13 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "recommended-articles",
+    "components": [
+      "title",
+      "simple-card"
     ]
   }
 ]
