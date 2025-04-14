@@ -46,7 +46,6 @@
   {
     "id": "recommended-articles",
     "components": [
-      "title",
       "simple-card"
     ]
   }

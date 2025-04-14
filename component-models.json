@@ -330,15 +330,11 @@
     "id": "recommended-articles",
     "fields": [
       {
-        "component": "multiselect",
-        "name": "classes",
-        "label": "CSS classes",
-        "options": [
-          {
-            "name": "title",
-            "value": "title"
-          }
-        ]
+        "component": "text",
+        "valueType": "string",
+        "name": "title",
+        "label": "Title",
+        "value": ""
       }
     ]
   },
