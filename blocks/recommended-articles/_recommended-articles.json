@@ -37,8 +37,8 @@
       "fields": [
         {
           "component": "multiselect",
-          "name": "style",
-          "label": "Style",
+          "name": "classes",
+          "label": "CSS classes",
           "options": [
             {
               "name": "title",
